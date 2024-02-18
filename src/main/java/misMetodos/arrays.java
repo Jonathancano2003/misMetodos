@@ -3,7 +3,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package misMetodos;
-
+d
 public class arrays {
 /**
  * Comprueba si un array es lleno

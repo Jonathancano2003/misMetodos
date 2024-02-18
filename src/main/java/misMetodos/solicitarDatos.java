@@ -3,7 +3,7 @@ package misMetodos;
 import java.util.Scanner;
 
 public class solicitarDatos {
-
+d
     /**
      * Solicita un string en base al tamaño que le hemos dado de parametro
      *
