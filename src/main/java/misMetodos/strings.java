@@ -45,4 +45,23 @@ public class strings {
         }
         return palabraSb;
     }
+    
+    /**
+     * cuenta los carcateres que tiene una palabra 
+     * @param palabra
+     * @param minuscula
+     * @param mayuscula
+     * @return 
+     */
+    public static int contarCaracteres(String palabra,char minuscula,char mayuscula){
+          int count=0;
+        for(int i =0;i<palabra.length();i++){
+            if(palabra.charAt(i)==minuscula|| palabra.charAt(i)==mayuscula ){
+               count++;
+            }
+                
+        }
+        System.out.println(count);
+        return count;
+    }
 }
